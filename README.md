@@ -9,8 +9,8 @@ This application is a comprehensive Node.js project that incorporates user authe
 Clone the repository and install the dependencies:
 
 ```
-git clone [Your-Repository-URL]
-cd [Your-Repository-Directory]
+git clone [Repository-URL]
+cd [Repository-Directory]
 npm install
 ```
 ## Configuration
@@ -18,8 +18,8 @@ Create a .env file in the project root and update it with your MongoDB URI, Data
 
 Example .env file:
 ```
-DATABASE=your_mongodb_uri
-DATABASE_PASSWORD=your_database_password
+DATABASE=mongodb_uri
+DATABASE_PASSWORD=database_password
 PORT=3000
 ```
 
